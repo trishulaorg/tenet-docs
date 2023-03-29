@@ -1,4 +1,6 @@
-# Website
+# Tenet Docs 
+
+URL: [https://docs.coton.app](https://docs.coton.app)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
