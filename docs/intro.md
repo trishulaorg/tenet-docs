@@ -4,44 +4,50 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
 ## Getting Started
 
-Get started by **creating a new site**.
+### What is tenet?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Revolutionizing social media**: `Tenet` is a next-generation social media platform developed and maintained by a community of passionate developers committed to creating the best user-focused SNS platform.
 
-### What you'll need
+The main branch is hosted on [https://coton.app](https://coton.app).
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## What you'll need
 
-## Generate a new site
+### Install git
 
-Generate a new Docusaurus site using the **classic template**.
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-The classic template will automatically be added to your project after you run the command:
+You can download git from [here](https://git-scm.com/downloads).
+
+### Install Node.js
+
+Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
+
+You can download Node.js from [here](https://nodejs.org/en/download/).
+
+** Note: Use 18.04 LTS or higher version. **
+
+## Cloning repository for the frontend
+
+Run the following command to clone the repository.
 
 ```bash
-npm init docusaurus@latest my-website classic
+git clone git@github.com/trishulaorg/tenet.git
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Install dependencies
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### npm
 
-## Start your site
+We are using package manager, `npm`, to install dependencies.
 
-Run the development server:
+npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
+
+### Install all dependencies
+
+Run the following command to install all dependencies under the cloned repository.
 
 ```bash
-cd my-website
-npm run start
+npm install
 ```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
